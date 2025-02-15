@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website -vinothdurai-j</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png4" class="logo" alt="">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                        </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi , I'm <span>Vinothdurai </span><br>
+                <p><span>Full Stack</span> Developer</p>
+
+        </div>
+    </div>
+
+ </div> 
+ <!--About-->  
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/portfolio1.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Passionate Full Stack Developer skilled in JavaScript, React.js, 
+                    Node.js, and database management. Experienced in building scalable 
+                    web applications with a focus on UI/UX and API integration.
+                    Proficient in HTML, CSS, Bootstrap, SAP, and database management, 
+                    I excel at solving complex problems and delivering optimized solutions.
+
+                </p>
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tabs" id="skills">
+    <ul>
+        <li><span>HTML,CSS3,Bootstrap(framework)</span><br>Designing Web interfaces</li>
+        <li><span>JavaScript,React js</span><br>Website Development</li>
+        <li><span>SAP,ASN,Ms Office</span><br>Building Inventery Management</li>
+
+    </ul>
+</div>
+<div class="tab-contents"  id="experience">
+    <ul>
+        <li><span>Jul 2024 - Present</span><br>Full Stack Development Trainee
+            <br> at KGiSL microcollege</li>
+
+        <li><span>2022-2024</span><br>SCM coordinator at TVS(SACL)</li>
+        
+
+        </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>Jul 2024 - Present</span><br>MERN Stack Developer Training at KGiSL microcollege</li>
+
+        <li><span>2019-2022</span><br>BCA from Syed Hameedha Arts & Scince college</li>
+        
+</div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!--Services-->
+<div id="services">
+<div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p> 🔹 Responsive & Modern Design<br>
+                🔹 User-Friendly Interface<br>
+                🔹 SEO-Optimized Structure<br>
+                🔹 Custom Solutions for Businesses</p>
+                <a href="">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p> 🔹 User-Centered Design<br>
+                🔹 Interactive & Engaging UI<br>
+                🔹 Smooth Navigation & Accessibility<br>
+                🔹 Wireframing & Prototyping</p>
+                <a href="">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-uncharted"></i>
+                        <h2>Testing</h2>
+            <p> 🔹 Functional & UI Testing<br>
+                🔹 Bug Identification & Fixes<br>
+                🔹 Performance & Compatibility <br>
+                🔹 Ensuring a Seamless UX<br></p>
+                <a href="">Learn more</a>
+        </div>
+    </div>
+  
+</div>
+</div>
+<!-----------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/project01.png" alt="">
+                <div class="layer">
+                    <h3>Amazone-Clone</h3>
+                    <p><b>Description:</b> A front-end 
+                         e-commerce UI replicating Amazon's design.<br>
+                        <b>Tech Stack:</b> HTML, CSS, Bootstrap, JavaScript
+                        
+                        
+                    </p>
+                    <a href="https://amazon-clone-websites.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project02.png" alt="">
+                <div class="layer">
+                    <h3>Tasty Treasure Bakery</h3>
+                    <p><b>Project Name:</b> Tasty Treasure Bakery
+                   <b> <br>Description:</b> A bakery website with an interactive UI, primarily using JavaScript for dynamic features.<br>
+                    <b>Tech Stack:</b> HTML, CSS, Bootstrap, JavaScript
+
+                    </p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project03.png" alt="">
+                <div class="layer">
+                    <h3>RedStore fashion</h3>
+                    <p>Project Name: Red Store Fashitio and Authentic Shop
+Description: A stylish e-commerce website for fashion and authentic products, featuring an interactive UI powered by JavaScript.
+Tech Stack: HTML, CSS, Bootstrap, JavaScript
+                    </p>
+                    <a href="https://redstore-ecommerce-website-offical.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">Seemore</a>
+    </div>
+</div>
+
+<!-----------Conatct-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sunn-title">Cntacct Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>vinothdurai137@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-63693 12248</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vinothdurai-j"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/vinothdurai-j"><i class="fa-brands fa-github"></i></a>
+                    <a href="vinothdurai137@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i></i></a>
+
+                </div>
+                <a href="images/vinothdurai.resume.pdf" download class="btn btn-2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name " required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <a href="vinothdurai137@gmail.com"><button type="submit" class="btn btn-2">Submit</button></a>
+                </form>
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>"© 2024 Vinoth Durai. All rights reserved. | Crafted with passion by Vinoth Durai Portfolio"
+        </p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
