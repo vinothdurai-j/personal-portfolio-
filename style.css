@@ -188,10 +188,12 @@ width: 100%;
 }
 .work img{
     width: 100%;
-    height: 50%;
+    height: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    object-fit: contain;
+
 }
 .layer{
     width: 100%;
@@ -376,4 +378,18 @@ flex-basis: 100%;
     .copyright{
         font-size: 14px;
     }
+}
+/*new style*/
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 10px; /* Adjust spacing between items */
+}
+
+.work {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
